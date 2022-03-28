@@ -1,0 +1,11 @@
+@import "vendor/reset.scss";
+
+* {
+	font-size: 10px;
+	box-sizing: border-box;
+}
+
+//blocks
+@import "blocks/header.scss";
+@import "blocks/adress.scss";
+@import "blocks/social.scss";

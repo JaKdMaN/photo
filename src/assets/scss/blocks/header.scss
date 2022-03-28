@@ -1,0 +1,60 @@
+.header {
+	background: url("/assets/images/header/background.png");
+	background-size: cover;
+
+	&__banner {
+		font-family: "Oswald";
+		font-size: 6.4rem;
+		line-height: 9.5rem;
+		letter-spacing: 0.192em;
+
+		text-align: right;
+		padding: 4rem 20rem 55rem 0;
+
+		color: #ffffff;
+	}
+}
+
+.nav {
+	display: flex;
+	justify-content: space-between;
+}
+
+.sidebar {
+	width: 39rem;
+
+	display: flex;
+	flex-direction: column;
+
+	padding-left: 12rem;
+
+	background: #373737;
+
+	&__logo {
+		margin: 4.8rem 0 3.1rem;
+	}
+
+	&__item {
+		margin-bottom: 4rem;
+	}
+}
+
+.menu {
+	display: flex;
+	margin-top: 4.6rem;
+	margin-right: 20rem;
+
+	&__item {
+		margin-left: 12rem;
+	}
+
+	&__link {
+		font-family: "Oswald";
+		font-size: 1.4rem;
+		line-height: 2.1rem;
+
+		text-transform: uppercase;
+		text-decoration: none;
+		color: #ffffff;
+	}
+}

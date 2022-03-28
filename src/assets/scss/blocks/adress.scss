@@ -1,0 +1,31 @@
+.adress {
+	display: flex;
+}
+.contacts {
+	width: 100%;
+	padding: 10rem 0 0 6.2rem;
+	background: #373737;
+
+	&__topic {
+		font-family: "Montserrat";
+		font-weight: 600;
+		font-size: 3.6rem;
+		line-height: 4.4rem;
+
+		margin-bottom: 2rem;
+
+		color: #ffffff;
+	}
+
+	&__info {
+		font-family: "Montserrat";
+		font-style: normal;
+		font-weight: 300;
+		font-size: 2rem;
+		line-height: 2.4rem;
+
+		padding-top: 6rem;
+
+		color: #ffffff;
+	}
+}
