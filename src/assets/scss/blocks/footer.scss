@@ -1,0 +1,54 @@
+.container {
+	width: 100%;
+	max-width: 120rem;
+	margin: 0 auto;
+}
+
+.footer {
+	padding-top: 10rem;
+	padding-bottom: 3rem;
+	display: flex;
+	justify-content: space-between;
+
+	background: #272727ff;
+
+	&__item {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+}
+.links {
+	&__item {
+		font-family: "Montserrat";
+		font-weight: 300;
+		font-size: 2rem;
+		line-height: 2.4rem;
+		text-decoration: none;
+
+		color: #ffffff;
+		margin-right: 16.5rem;
+	}
+}
+.info {
+	&__item {
+		font-family: "Montserrat";
+		font-weight: 300;
+		font-size: 2rem;
+		line-height: 2.4rem;
+		color: #ffffff;
+	}
+	&__icon {
+		padding-bottom: 2rem;
+		margin-left: 17.7rem;
+	}
+	&__bottom {
+		font-family: "Montserrat";
+		font-style: normal;
+		font-weight: 300;
+		font-size: 1.8rem;
+		line-height: 2.2rem;
+		margin-top: 8rem;
+
+		color: #ffffff;
+	}
+}

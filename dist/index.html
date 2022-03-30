@@ -24,7 +24,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="description" content="">
     
-    <title>homePage</title></head>
+    <title>contacts</title></head>
 <body>
 
     <header class="header">
@@ -73,20 +73,47 @@
     	</div>
     </section>
     
-    <section>
-    	<form>
-    		<h2>обратная связь</h2>
-    		<input type="text" placeholder="имя">
-    		<input type="email" placeholder="электронная почта">
-    		<textarea name="" id="" cols="30" rows="10" placeholder="введите текст"></textarea>
-    		<input type="checkbox" name="agree" id="">
-    		<label for="agree">пользовательское соглашение</label>
-    		<button>отправить</button>
+    <section class="form">
+    	<form class="entry">
+    		<h2 class="entry__topic">обратная связь</h2>
+    		<input type="text" placeholder="имя" class="entry__input">
+    		<input type="email" placeholder="электронная почта" class="entry__input">
+    		<textarea name="" id="" cols="30" rows="10" placeholder="введите текст" class="entry__textarea"></textarea>
+    		<input type="checkbox" class="entry__checkbox" id="checkbox" />
+    		<label for="checkbox" class="entry__label">Пользовательское соглашение</label>
+    		<button class="entry__button">отправить</button>
     	</form>
     	<img src="./assets/images/form.png" alt="photo">
     </section>
 
-    <footer></footer>
+    <footer class="footer">
+    	<div class="container footer">
+    		<div class="links footer__item">
+    			<a href="" class="links__item">Залы</a>
+    			<a href="" class="links__item">Вопросы</a>
+    			<a href="" class="links__item">Расписание</a>
+    			<a href="" class="links__item">Контакты</a>
+    			<a href="" class="links__item">Правила</a>
+    
+    		</div>
+    		<div class="info footer__item">
+    			<p class="info__item">© OOO “PHOTOPIX”, март 2022</p>
+    			<a href="#" class="info__icon"><img src="../assets/images/header/viber.svg" alt="viber"></a>
+    
+    			<p class="info__item">ул. Докукина 10/41 <br>
+    				ул. Малая Семеновская 5/1</p>
+    			<a href="#" class="info__icon"><img src="../assets/images/header/vk.svg" alt="vk"></a>
+    
+    			<p class="info__item">+7 (966) 127-71-15 <br>
+    				+7 (915) 460-88-55
+    			</p>
+    			<a href="#" class="info__icon"><img src="../assets/images/header/inst.svg" alt="inst"></a>
+    			<p class="info__bottom">© 2014—2022</p>
+    
+    		</div>
+    
+    	</div>
+    </footer>
     <script src="assets/js/app.js"></script>
 </body>
 </html>

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: homePage
+title: contacts
 ---
 
 
@@ -27,15 +27,15 @@ title: homePage
 	</div>
 </section>
 
-<section>
-	<form>
-		<h2>обратная связь</h2>
-		<input type="text" placeholder="имя">
-		<input type="email" placeholder="электронная почта">
-		<textarea name="" id="" cols="30" rows="10" placeholder="введите текст"></textarea>
-		<input type="checkbox" name="agree" id="">
-		<label for="agree">пользовательское соглашение</label>
-		<button>отправить</button>
+<section class="form">
+	<form class="entry">
+		<h2 class="entry__topic">обратная связь</h2>
+		<input type="text" placeholder="имя" class="entry__input">
+		<input type="email" placeholder="электронная почта" class="entry__input">
+		<textarea name="" id="" cols="30" rows="10" placeholder="введите текст" class="entry__textarea"></textarea>
+		<input type="checkbox" class="entry__checkbox" id="checkbox" />
+		<label for="checkbox" class="entry__label">Пользовательское соглашение</label>
+		<button class="entry__button">отправить</button>
 	</form>
 	<img src="./assets/images/form.png" alt="photo">
 </section>
