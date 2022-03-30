@@ -726,6 +726,12 @@ textarea {
 }
 
 .footer {
+    padding-top: 10rem;
+    padding-bottom: 3rem;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     background: #272727ff;
 }
 
@@ -739,7 +745,9 @@ textarea {
     font-weight: 300;
     font-size: 2rem;
     line-height: 2.4rem;
+    text-decoration: none;
     color: #ffffff;
+    margin-right: 16.5rem;
 }
 
 .info__item {
@@ -750,11 +758,17 @@ textarea {
     color: #ffffff;
 }
 
-.bottom {
+.info__icon {
+    padding-bottom: 2rem;
+    margin-left: 17.7rem;
+}
+
+.info__bottom {
     font-family: "Montserrat";
     font-style: normal;
     font-weight: 300;
-    font-size: 18px;
-    line-height: 22px;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+    margin-top: 8rem;
     color: #ffffff;
 }

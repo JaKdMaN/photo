@@ -452,7 +452,7 @@ textarea {
 }
 
 .header {
-  background: url("/assets/images/header/background.png");
+  background: url("../images/header/background.png");
   background-size: cover;
 }
 .header__banner {
